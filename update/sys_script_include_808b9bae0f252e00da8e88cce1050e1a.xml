@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>global.DoNothing</api_name>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>DoNothing</name>
+        <script><![CDATA[var DoNothing = Class.create();
+DoNothing.prototype = {
+    initialize: function() {
+    },
+
+    type: 'DoNothing'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>arlmorling</sys_created_by>
+        <sys_created_on>2016-09-02 09:49:44</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>808b9bae0f252e00da8e88cce1050e1a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DoNothing</sys_name>
+        <sys_package display_value="Fiscal Calendar" source="e24e9692d7702100738dc0da9e6103dd">e24e9692d7702100738dc0da9e6103dd</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Fiscal Calendar">e24e9692d7702100738dc0da9e6103dd</sys_scope>
+        <sys_update_name>sys_script_include_808b9bae0f252e00da8e88cce1050e1a</sys_update_name>
+        <sys_updated_by>arlmorling</sys_updated_by>
+        <sys_updated_on>2016-09-02 09:49:44</sys_updated_on>
+    </sys_script_include>
+</record_update>
